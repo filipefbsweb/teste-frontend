@@ -1,0 +1,65 @@
+{
+  "name": "teste-frontend",
+  "version": "1.0.0",
+  "description": "Crie uma aplicação utilizando e consumindo a pokéAPI.\r ​\r ## Lista de Pokémons ##\r Crie uma lista de pokémons em ordem crescente. Cada item da lista deve conter imagem, número, nome e tipo.",
+  "main": "index.js",
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/filipefbsweb/teste-frontend.git"
+  },
+  "author": "Filipe Barbosa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/filipefbsweb/teste-frontend/issues"
+  },
+  "homepage": "https://github.com/filipefbsweb/teste-frontend#readme",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "core-js": "^3.6.5",
+    "vue": "^2.6.11",
+    "vue-axios": "^3.3.7",
+    "vue-lazyload": "^1.3.3",
+    "vue-router": "^3.2.0",
+    "vuex": "^3.4.0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-router": "~4.5.0",
+    "@vue/cli-plugin-vuex": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "@vue/eslint-config-prettier": "^6.0.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-prettier": "^3.3.1",
+    "eslint-plugin-vue": "^6.2.2",
+    "prettier": "^2.2.1",
+    "sass": "^1.26.5",
+    "sass-loader": "^8.0.2",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended",
+      "@vue/prettier"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
